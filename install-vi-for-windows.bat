@@ -13,8 +13,8 @@ curl -k --fail --output %fn% -L %url%
 
 "C:\Program Files\7-Zip\7z" x %fn% -ogvim
 
-cp gvim\$0\vim.exe %installedpath%
-cp /y vimrc %installedpath%\.vimrc
+copy /y gvim\$0\vim.exe "%installedpath%\vi.exe"
+copy /y vimrc "%installedpath%\.vimrc"
 
 :END
 echo bye
