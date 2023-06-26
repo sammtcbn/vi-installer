@@ -3,7 +3,7 @@ set currdir=%~dp0
 IF "%currdir:~-1%"=="\" SET currdir=%currdir:~0,-1%
 cd /d "%currdir%"
 
-set ver=9.0.1423
+set ver=9.0.1665
 set fn=gvim_%ver%_x64.zip
 set url=https://github.com/vim/vim-win32-installer/releases/download/v%ver%/%fn%
 
